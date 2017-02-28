@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="2dp">
+
+        <TextView
+            android:text="Year"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:padding="5dp"
+            android:gravity="right|center_vertical" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/add_edit_batch_batchYear"
+            android:layout_weight="1"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:padding="5dp"
+            android:gravity="left|center_vertical" />
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/add_edit_batch_selectYear"
+            android:layout_weight="1"
+            android:gravity="left|center_vertical|start"
+            android:padding="5dp"
+            android:layout_marginLeft="2dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="2dp">
+
+        <TextView
+            android:text="Department"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.61"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:padding="5dp"
+            android:gravity="right|center_vertical" />
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/add_edit_batch_departmentName"
+            android:layout_weight="1"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:padding="5dp"
+            android:gravity="left|center_vertical" />
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/add_edit_batch_selectDepartment"
+            android:layout_weight="1"
+            android:gravity="left|center_vertical|start"
+            android:padding="5dp"
+            android:layout_marginLeft="2dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <TextView
+            android:text="Number Of Students"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="9.21"
+            android:padding="5dp"
+            android:gravity="right|center_vertical"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/add_edit_batch_batchCapacity"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <TextView
+            android:text="Password"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="9.21"
+            android:padding="5dp"
+            android:gravity="right|center_vertical"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberPassword"
+            android:ems="10"
+            android:id="@+id/add_edit_batch_password"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <TextView
+            android:text="Confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="9.21"
+            android:padding="5dp"
+            android:gravity="right|center_vertical"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberPassword"
+            android:ems="10"
+            android:id="@+id/add_edit_batch_confirmPassword"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp" />
+    </LinearLayout>
+</LinearLayout>

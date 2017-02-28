@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/menu_top">
+        <item
+            android:id="@+id/activity_main_drawer_courses"
+            android:icon="@android:drawable/ic_input_get"
+            android:title="Courses" />
+        <item
+            android:id="@+id/activity_main_drawer_teachers"
+            android:icon="@android:drawable/ic_menu_my_calendar"
+            android:title="Teachers" />
+        <item
+            android:id="@+id/activity_main_drawer_batches"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="Batches" />
+        <item
+            android:id="@+id/activity_main_drawer_rooms"
+            android:icon="@android:drawable/ic_menu_today"
+            android:title="Rooms" />
+    </group>
+
+    <item
+        android:id="@+id/generate_time_table"
+        android:title="Generate Time Table"
+        android:icon="@android:drawable/ic_menu_recent_history" />
+
+    <group android:checkableBehavior="none"
+        android:id="@+id/menu_bottom">
+        <item
+            android:id="@+id/activity_main_drawer_about"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="About" />
+    </group>
+
+    <item
+        android:id="@+id/logout"
+        android:title="Logout" />
+
+</menu>

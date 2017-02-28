@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Time Table</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="view_item">View Details</string>
+    <string name="edit_item">Edit Details</string>
+    <string name="delete_item">Delete</string>
+
+    <string name="delete_teacher">do you really want to delete the Teacher ?</string>
+    <string name="delete_batch">do you really want to delete the Batch ?</string>
+    <string name="delete_classroom">do you really want to delete the Course ?</string>
+    <string name="delete_room">do you really want to delete the Room ?</string>
+
+    <string name="TEACHER_ID">TEACHER_ID</string>
+    <string name="BATCH_ID">BATCH_ID</string>
+
+    <string name="ASSIGN_TEACHER">ASSIGN_TEACHER</string>
+
+    <string name="UPDATING">UPDATING</string>
+
+    <string name="ADD_DIALOG">ADD_DIALOG</string>
+    <string name="EDIT_DIALOG">EDIT_DIALOG</string>
+
+    <string name="DEPARTMENT_NAME">DEPARTMENT_NAME</string>
+
+    <string name="CLASSROOM_DATA">COURSE DATA</string>
+    <string name="BATCH_DATA">BATCH DATA</string>
+    <string name="ROOM_DATA">ROOM DATA</string>
+    <string name="TEACHER_DATA">TEACHER DATA</string>
+    <string name="ASSIGN_teacher">ASSIGN TEACHER</string>
+    <string name="ASSIGN_BATCH">ASSIGN BATCH</string>
+
+
+    <string name="name_text">Name</string>
+    <string name="username_text">Username</string>
+    <string name="password_text">Password</string>
+    <string name="login_text">LOGIN</string>
+    <string name="logout_text">Log Out</string>
+
+    <string name="admin_text">Admin</string>
+    <string name="teacher_text">Teacher</string>
+    <string name="batch_text">Batch</string>
+
+</resources>
